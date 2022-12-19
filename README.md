@@ -66,7 +66,39 @@ A popup window will ask you to create an admin accout password. The admin name w
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We will now be reloading IIS. Go to the search next to start and search IIS. On the right side click on the restart button.
+We will now be reloading IIS. Go to the search next to start and search IIS. On the right side click on the restart button. On the left side of IIS, click on the vm-osticket right facing arrow. Then do the same for Sites, Default Web Site and click on the osTicket folder. On the right side click on "Browse*:80(http). This will open a webbrowser to osTicket. Back in IIS, go back to and click on the osTicket folder. Click on PHP Manager at the center top. Click on "Enable or disable an extension". Right click and Enable "php_imap.dll", "php_int.dll", and "php_opcache.dll". Hit the reload button on the osTicket browser and see that the Intl Extension is checked off.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we will navigate to the osTicket folder in the file explorer. Go to c:\inetpub\wwwroot\osTicket\include. Find the file named "ost-sampleconfig" and rename it to "ost-config". Right click that file and select properties. Select "Security" and then "Advanced". Click on "Disable inheritance". Selct "Remove all inherited permissions from this object". Then click on "Add" since we will be adding our own permissions. Click on "Select a principle". Click in the box saying to Enter the object name to select. Type the word "Everyone" and click "check names" and ok. It will bring you to the permissions and select the box "Full Control". Then select "Apply" and "ok"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to osTicket webpage. Click on "continue". It now works.If that last section wasn't done properly, then it would no open. Fill in the information. Make sure "Default Email" is a different email then "Email Address" under the Admin User section. Go back to the Google Drive files and download HeidiSQL. It should bring you to document and click on the link to download the HeidiSQL. Click on either "Open File" from the website or navigate to the "Downloads" folder and double click HeidiSQL Application. Click Accept Install nexty and Install. Then click Launch and it will open. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+AT the bottom left of HeidiSQL click on "New" and on the right side under "root" enter the password and click "open". It will then take you to the data bases and has some default data bases in there. You are going to right click "unnamed" and slect "Create new" and "Database". Type in the box "osTicket" and click create. Go back to the webpage with osTicket and under "MySQL Database" type osTicket. Under MySQL Username type "root" and then under MySQL Password type the password you had for root.  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+os Ticket should now be installed. There are some cleanup things to do before closing out. Go to C:\inetpub\wwwroots\osTicket\setup and delete the Setup folder. If it doesn't let you delete the folder, go into the folder and delete all the contents and then go back and you should be able to delete the folder. In the same place click on "include" and find ost-config.php and right click and select properties. Click on Security and select "Advanced" Click on the permission and at the bottom select "Edit". Uncheck all the boxes except for "Read" and "Read and Execute". Click on "Apply" at the bottom and click on "Ok".
 </p>
 <br />
 
@@ -78,10 +110,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
