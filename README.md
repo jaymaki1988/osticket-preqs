@@ -63,10 +63,18 @@ Click on Microsoft Edge and paste the Google Drive Installation in an open tab. 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VRe6m4E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-A popup window will ask you to create an admin accout password. The admin name will be root and you just create a password. Click on I accept and it will attempt to download files. For any of the files that fail, refer to the Google Drive files for any that failed. Next you will download the osTicket file from the Google Drive files. It will end up in your Downloads Folder. Right click it and Extract All in the downloads folder. Once that is complete, click on the osTicket folder and copy the "upload" folder in there to the folder we navigated to earlier c:\inetpub\wwwroot. Rename the "upload" folder to "osTicket".
+A popup window will ask you to create an admin accout password. The admin name will be root and you just create a password. Click on I accept and it will attempt to download files.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/WAcwZFS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+For any of the files that fail, refer to the Google Drive files for any that failed. Next you will download the osTicket file from the Google Drive files. It will end up in your Downloads Folder. Right click it and Extract All in the downloads folder. Once that is complete, click on the osTicket folder and copy the "upload" folder in there to the folder we navigated to earlier c:\inetpub\wwwroot. Rename the "upload" folder to "osTicket".
 </p>
 <br />
 
@@ -79,7 +87,7 @@ We will now be reloading IIS. Go to the search next to start and search IIS. On 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2sG2kVs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next we will navigate to the osTicket folder in the file explorer. Go to c:\inetpub\wwwroot\osTicket\include. Find the file named "ost-sampleconfig" and rename it to "ost-config". Right click that file and select properties. Select "Security" and then "Advanced". Click on "Disable inheritance". Selct "Remove all inherited permissions from this object". Then click on "Add" since we will be adding our own permissions. Click on "Select a principle". Click in the box saying to Enter the object name to select. Type the word "Everyone" and click "check names" and ok. It will bring you to the permissions and select the box "Full Control". Then select "Apply" and "ok"
