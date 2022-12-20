@@ -55,13 +55,20 @@ Next we are going to launch windows in the virtual desktop. Click on the virtual
 <br />
 
 <p>
-<img src="https://i.imgur.com/mzR2Njg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9klNbCg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Click on Microsoft Edge and paste the Google Drive Installation in an open tab. Go to the Search near start button and type Control Panel and click on it. Click on Uninstall a program. CLick on the Turn Windows features on or off. Search for Internet Information Services and selct the box and click ok. It should have Created a folder path from the image above with the wwwroot. Install the WebPlatforminstaller from the Google Drive Instalation Files. Once it is installed, go to the search and search for Web Platformer and open it. Once it is opened go to the search bar on the top right and type MySQL. Click on Add from MySQL WIndows. Next we will add PHP files. Type in the search for PHP and on Name to view search results by name. Add all PHP x86 files starting with the 5.6.31 to 7.3.25(x86). Click on Install.
+Click on Microsoft Edge and paste the Google Drive Installation in an open tab. Go to the Search near start button and type Control Panel and click on it. Click on Uninstall a program. CLick on the Turn Windows features on or off. Search for Internet Information Services and selct the box and click ok.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/mzR2Njg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+It should have Created a folder path from the image above with the wwwroot. Install the WebPlatforminstaller from the Google Drive Instalation Files. Once it is installed, go to the search and search for Web Platformer and open it. Once it is opened go to the search bar on the top right and type MySQL. Click on Add from MySQL WIndows. Next we will add PHP files. Type in the search for PHP and on Name to view search results by name. Add all PHP x86 files starting with the 5.6.31 to 7.3.25(x86). Click on Install.
+</p>
+<br />
 <p>
 <img src="https://i.imgur.com/VRe6m4E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
