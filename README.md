@@ -131,5 +131,9 @@ os Ticket should now be installed. There are some cleanup things to do before cl
 </p>
 <br />
 
+<p>
+In our next section, we will be setting up osTicket with new Roles, Agents, Permissions, Users, and SLAs.
+</p>
+<br />
 
 
