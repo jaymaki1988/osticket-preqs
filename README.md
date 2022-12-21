@@ -25,8 +25,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Azure Tenant
 - Subsricption
 - Google Drive Instalation Files
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
