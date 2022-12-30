@@ -44,7 +44,7 @@ Type in the search bar for "Virtual Machine" and click on it. Make sure to selec
 <img src="https://i.imgur.com/acYzEsC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we are going to launch windows in the virtual desktop. Click on the virtual machine we just made and cop the Public IP address. There is a copy icon to the right of the IP address. Go to the search bar near the start window and search for remote desktop. Paste the IP address in the Computer section of Remote Desktop. Type in user name and password you just made. Once it starts up, say no to all the settings it pops up with. Next we are going to setup ISS in windows. 
+Next we are going to launch windows in the virtual desktop. Click on the virtual machine we just made and copy the Public IP address. There is a copy icon to the right of the IP address. Go to the search bar near the start window and search for remote desktop. Paste the IP address in the Computer section of Remote Desktop. Type in user name and password you just made. Once it starts up, say no to all the settings it pops up with. Next we are going to setup ISS in windows. 
 </p>
 <br />
 
